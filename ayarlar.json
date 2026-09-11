@@ -1,0 +1,37 @@
+{
+  "token": "",
+  "clientId": "",
+  "guildId": "",
+  "logChannelId": "",
+  "colors": {
+    "success": "#2DD4BF",
+    "error": "#EF4444",
+    "info": "#7C6CFF",
+    "warning": "#F5A623"
+  },
+  "giveaway": {
+    "defaultWinners": 1,
+    "maxWinners": 50,
+    "allowCreatorJoin": false,
+    "allowBots": false,
+    "requireMention": true,
+    "participantsPerPage": 10,
+    "adminPermission": "ManageGuild"
+  },
+  "bonusEntries": {
+    "roles": [],
+    "messageBonus": { "enabled": false, "messagesRequired": 100, "entries": 2, "cooldownSeconds": 30 },
+    "inviteBonus": { "enabled": false, "invitesRequired": 3, "entries": 3 },
+    "membershipBonus": { "enabled": false, "days": 30, "entries": 1 }
+  },
+  "requirementDefaults": {
+    "minAccountAgeDays": 0,
+    "minMembershipDays": 0
+  },
+  "database": {
+    "path": "./data/giveaways.sqlite"
+  },
+  "scheduler": {
+    "safetySweepSeconds": 60
+  }
+}

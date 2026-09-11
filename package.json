@@ -1,0 +1,22 @@
+{
+  "name": "discord-giveaway-bot",
+  "version": "1.0.0",
+  "description": "Gelismis, production seviyesinde Discord cekilis botu.",
+  "main": "wnersdev.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node wnersdev.js",
+    "dev": "nodemon wnersdev.js",
+    "deploy-commands": "node handlers/deployCommands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "better-sqlite3": "^11.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
