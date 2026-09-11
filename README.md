@@ -9,7 +9,6 @@
 ![discord.js](https://img.shields.io/badge/discord.js-v14-5865F2?style=for-the-badge&logo=discord&logoColor=white)
 ![Node](https://img.shields.io/badge/Node.js-18%2B-3C873A?style=for-the-badge&logo=node.js&logoColor=white)
 ![SQLite](https://img.shields.io/badge/better--sqlite3-restart--safe-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
-![No ENV](https://img.shields.io/badge/.env-KULLANILMIYOR-EF4444?style=for-the-badge)
 ![No Dashboard](https://img.shields.io/badge/dashboard-YOK-EF4444?style=for-the-badge)
 ![License](https://img.shields.io/badge/Lisans-MIT-7C6CFF?style=for-the-badge)
 
@@ -123,8 +122,6 @@ Taslak oluştur, gözden geçir, başlat. Sonrası tamamen otomatik. 🎉
 
 | | |
 |---|---|
-| 🧱 **Sıfır web katmanı** | Express yok, dashboard yok, panel yok — her şey slash komut ve buton |
-| 📄 **Sıfır `.env`** | Token dahil her ayar `ayarlar.json`'da, tek dosyadan yönetim |
 | 💾 **Restart-safe** | Bot yeniden başlasa da aktif çekilişler ve sayaçlar `SQLite`'tan geri yüklenir |
 | ⏱️ **Akıllı zamanlama** | Her çekiliş için tek `setTimeout` + 60 saniyelik güvenlik taraması — saniye saniye tarama yok |
 | 🎯 **Gerçek şartlar** | Hesap yaşı, üyelik süresi, gerekli/yasaklı rol, kanal erişimi — hepsi canlı kontrol ediliyor |
